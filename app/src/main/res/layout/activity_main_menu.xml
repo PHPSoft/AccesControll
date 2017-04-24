@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/db1_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.44"
+        android:background="#9494b8"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:background="@drawable/scan_area"
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.19"
+        android:background="#9494b8"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="Touch RFID card in above area"
+            android:layout_weight="0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background = "#e6e6e6"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:background="#e6e6e6">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="#e6e6e6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal details from scanned badge:"
+                    android:textSize="16dp"
+                    android:padding="20dp"
+                    android:background="#e6e6e6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+
+            </TableRow>
+
+            <!-- Name Area -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#e6e6e6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <!-- Surname-->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#e6e6e6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <!-- Company area -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#e6e6e6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+            </TableRow>
+            <!-- Badgeid Area -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#e6e6e6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <!-- RFID card id -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#e6e6e6"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:padding="20dp"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            </TableRow>
+
+
+
+        </TableLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.62"
+        android:background="#9494b8"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Approve"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:drawableRight="@drawable/salesman_checkmark"/>
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Block"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:drawableRight="@drawable/user_sleep_cross"/>
+
+        <Button
+            android:id="@+id/buttonMainReadTag"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="@string/action_read_tag"
+            android:onClick="onShowReadTag"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:drawableRight="@drawable/user_awake_zoom"/>
+    </RelativeLayout >
+
+</LinearLayout>

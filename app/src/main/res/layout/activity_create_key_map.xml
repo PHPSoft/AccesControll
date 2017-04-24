@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutCreateKeyMap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.KeyMapCreator"
+    android:orientation="horizontal" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCreateKeyMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textViewCreateKeyMapSectorRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp"
+        android:text="@string/text_sector_range"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewCreateKeyMapFromTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="3dp"
+        android:text="@string/text_sector_range_all"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewCreateKeyMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutCreateKeyMapKeyFiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AccesControl</string>
+    <string name="info_new_tag_found">New Tag Found</string>
+    <string name="action_read_tag">Read card</string>
+    <string name="text_wait_read_tag">Reading Card...</string>
+    <string name="info_no_external_storage">No storadge found...</string>
+    <string name="action_create_key_map_and_read">Create mapping and read card</string>
+    <string name="info_strange_error">This should not be happening!</string>
+    <string name="info_no_tag_found">Carrd not found</string>
+    <string name="info_none_key_valid_for_reading">Not valid key for reading</string>
+    <string name="info_tag_removed_while_reading">Card removed to early</string>
+    <string name="title_activity_create_key_map">Create key map</string>
+    <string name="title_activity_read_tag">Read Card</string>
+    <string name="text_sector_range">Sector range</string>
+    <string name="text_sector_range_all">All ranges</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="info_file_to_big">File to big</string>
+    <string name="info_to_many_keys">To many keys defined</string>
+    <string name="info_mapping_sector_out_of_range">Sector out of range</string>
+    <string name="info_wait_key_map">Wait for key map</string>
+    <string name="info_key_map_error">Key map error</string>
+    <string name="info_no_key_found">Key not found</string>
+</resources>
